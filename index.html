@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Explore Dream Destinations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigasyon Çubuğu (6 Puan) -->
+  <nav class="navbar">
+    <div class="logo">✈️ TravelBloom</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Enter beach, temple, or country...">
+      <button id="btnSearch">Search</button>
+      <button id="btnClear">Clear</button>
+    </div>
+  </nav>
+
+  <!-- Ana Bölüm & Giriş Tanıtımı (4 Puan) -->
+  <div class="main-container">
+    <div class="hero-content">
+      <h1>EXPLORE DREAM DESTINATIONS</h1>
+      <p>Discover personalized travel recommendations curated just for you. Whether you crave sunny tropical beaches, spiritual ancient temples, or scenic countries, we help you plan your next unforgettable adventure.</p>
+      <button class="cta-btn" onclick="document.getElementById('searchInput').focus()">Book Now</button>
+    </div>
+
+    <!-- Arama Sonuçlarının Listeleneceği Bölüm -->
+    <div id="resultsContainer" class="results-container"></div>
+  </div>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>

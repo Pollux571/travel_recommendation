@@ -1,0 +1,64 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=600",
+          "description": "A vibrant city known for its iconic Opera House and beautiful harbour."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1514395462725-fb4566210144?w=600",
+          "description": "Famous for its cultural diversity, street art, and world-class coffee."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=600",
+          "description": "A bustling metropolis blending ultra-modern neon skyscrapers with historic temples."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600",
+          "description": "Famous for classical Buddhist temples, gardens, and imperial palaces."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600",
+      "description": "The largest religious monument in the world, representing high classical Khmer architecture."
+    },
+    {
+      "id": 2,
+      "name": "Fushimi Inari-Taisha, Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1478436127897-769e00d0c715?w=600",
+      "description": "Famous Shinto shrine in southern Kyoto known for its thousands of vermilion torii gates."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+      "description": "An island known for turquoise waters, coral reefs, and luxury overwater bungalows."
+    },
+    {
+      "id": 2,
+      "name": "Copacabana, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+      "description": "World-famous 4km sandy beach in Rio de Janeiro with vibrant atmosphere."
+    }
+  ]
+}
